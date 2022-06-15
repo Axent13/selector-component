@@ -2,6 +2,8 @@
   margin-top: 10px;
   width: 100%;
   position: relative;
+  user-select: none;
+  cursor: pointer;
 
   &__selected-value {
     position: relative;
@@ -18,12 +20,23 @@
     background-image: url('./img/arrow.png');
     background-repeat: no-repeat;
     background-size: contain;
+    transition: transform ease 0.2s;
+
+    &_down {
+      transform: rotate(-90deg);
+    }
   }
 
   &__options-container {
     position: absolute;
     width: 100%;
     z-index: 10;
+    user-select: none;
+    cursor: pointer;
+
+    &_hidden {
+      display: none;
+    }
   }
 
   &__option {
@@ -31,5 +44,10 @@
     border: 1px solid black;
     border-top: none;
     background-color: white;
+    user-select: none;
+
+    &:hover {
+      background-color: rgb(159, 246, 252);
+    }
   }
 }
