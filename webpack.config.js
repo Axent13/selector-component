@@ -8,10 +8,6 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    publicPath: "/selector-component/"
-  },
-  devServer: {
-    static: './dist',
   },
   devtool: 'inline-source-map',
   plugins: [
