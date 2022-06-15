@@ -1,4 +1,35 @@
 .selector {
+  margin-top: 10px;
   width: 100%;
-  border: 1px solid black;
+  position: relative;
+
+  &__selected-value {
+    position: relative;
+    padding: 5px 20px 5px 5px;
+    border: 1px solid black;
+  }
+
+  &__arrow {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    background-image: url('./img/arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__options-container {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+  &__option {
+    padding: 5px;
+    border: 1px solid black;
+    border-top: none;
+    background-color: white;
+  }
 }

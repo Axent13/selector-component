@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.selectors-container {
+  padding: 10px;
+}
+
+.selector-element {
+  &__first {
+    width: 400px;
+  }
+  
+  &__second {
+    width: 200px;
+  }
+
+  &__third {
+    width: 50px;
+  }
+}
