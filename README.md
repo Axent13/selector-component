@@ -1,5 +1,5 @@
 # selector-component
-Test task for the Junior Bootcamp - https://docs.google.com/document/d/1DE5gNbob0xFLxuB3O_mV_AFvaIoECt9mQlq-R93FkV0/edit?usp=sharing
+ [Test task](https://docs.google.com/document/d/1DE5gNbob0xFLxuB3O_mV_AFvaIoECt9mQlq-R93FkV0/edit?usp=sharing) for the Junior Bootcamp
 
 ## Github Pages
 
